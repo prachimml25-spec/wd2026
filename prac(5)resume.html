@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prachi Moundekar | Resume</title>
+
+<style>
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Segoe UI',sans-serif;
+}
+
+body{
+  background: linear-gradient(135deg,#87ceeb,#b0e0e6); /* sky blue gradient */
+}
+
+.container{
+  width:85%;
+  margin:auto;
+  padding:30px;
+}
+
+/* Header */
+
+header{
+  display:flex;
+  align-items:center;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  animation:fadeIn 1.5s;
+}
+
+.profile-img{
+  width:140px;
+  height:140px;
+  border-radius:50%;
+  object-fit:cover;
+  margin-right:25px;
+  border:4px solid #1e90ff; /* sky blue border */
+}
+
+.header-text h1{
+  font-size:32px;
+  color:#2c3e50;
+}
+
+.header-text p{
+  margin-top:5px;
+}
+
+/* Sections */
+
+section{
+  margin-top:25px;
+  background:white;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+  animation:slideUp 1s;
+}
+
+h2{
+  margin-bottom:15px;
+  border-bottom:3px solid #1e90ff; /* sky blue underline */
+  display:inline-block;
+  padding-bottom:5px;
+}
+
+/* Skills */
+
+.skills{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:10px;
+}
+
+.skill{
+  background:#1e90ff;
+  color:white;
+  padding:10px;
+  border-radius:6px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.skill:hover{
+  transform:scale(1.1);
+}
+
+/* Table */
+
+table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+th,td{
+  border:1px solid #ccc;
+  padding:10px;
+}
+
+th{
+  background:#1e90ff;
+  color:white;
+}
+
+/* Lists */
+
+ul{
+  margin-left:20px;
+  line-height:1.8;
+}
+
+/* Links */
+
+a{
+  color:#1e90ff;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+/* Footer */
+
+footer{
+  text-align:center;
+  color:white;
+  margin-top:20px;
+}
+
+/* Animations */
+
+@keyframes fadeIn{
+  from{opacity:0;}
+  to{opacity:1;}
+}
+
+@keyframes slideUp{
+  from{transform:translateY(40px);opacity:0;}
+  to{transform:translateY(0);opacity:1;}
+}
+
+/* Responsive Header */
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-img {
+    margin-bottom: 15px;
+  }
+}
+
+/* Table Hover Effect */
+table tr:hover {
+  background: #f0f8ff;
+  transition: 0.3s;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<!-- Updated girl's photo -->
+<img src="https://i.pravatar.cc/300?img=47" class="profile-img" alt="Profile picture of Prachi Moundekar">
+
+<div class="header-text">
+
+<h1>Prachi Moundekar</h1>
+
+<p>Aspiring Software Developer | Web Developer</p>
+
+<p>College: SB Jain Institute of Technology</p>
+
+<p>Email: prachi@email.com</p>
+
+<p>
+LinkedIn: <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/prachimoundekar</a>
+</p>
+
+<p>
+GitHub: <a href="#" target="_blank" rel="noopener noreferrer">github.com/prachimoundekar</a>
+</p>
+
+</div>
+
+</header>
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+I am a motivated Computer Science student at SB Jain Institute of Technology
+with a passion for web development and programming. I enjoy building modern,
+responsive websites and learning new technologies. I aim to contribute to
+innovative software projects and grow as a professional developer.
+</p>
+
+</section>
+
+<section>
+
+<h2>Key Skills</h2>
+
+<div class="skills">
+
+<div class="skill">HTML5</div>
+<div class="skill">CSS3</div>
+<div class="skill">JavaScript</div>
+<div class="skill">Python</div>
+<div class="skill">Git & GitHub</div>
+<div class="skill">Responsive Web Design</div>
+<div class="skill">UI/UX Basics</div>
+<div class="skill">Problem Solving</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<table>
+
+<tr>
+<th>Year</th>
+<th>Qualification</th>
+<th>Institute</th>
+</tr>
+
+<tr>
+<td>2024 – Present</td>
+<td>Bachelor of Engineering</td>
+<td>SB Jain Institute of Technology</td>
+</tr>
+
+<tr>
+<td>2022 – 2024</td>
+<td>Higher Secondary</td>
+<td>Junior College</td>
+</tr>
+
+<tr>
+<td>2022</td>
+<td>Secondary School</td>
+<td>High School</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Projects</h2>
+
+<ul>
+
+<li>
+<strong>Personal Portfolio Website</strong> – Developed a responsive website
+using HTML and CSS.
+<a href="#">View Project</a>
+</li>
+
+<li>
+<strong>Online Shopping Website</strong> – Designed a modern e-commerce UI
+with product listing.
+<a href="#">View Project</a>
+</li>
+
+<li>
+<strong>Student Management System</strong> – Built a system for managing
+student records.
+<a href="#">View Project</a>
+</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Internship</h2>
+
+<ul>
+
+<li>
+<strong>Web Development Intern</strong> – Tech Company
+<ul>
+<li>Developed responsive webpages.</li>
+<li>Worked with HTML, CSS, JavaScript.</li>
+<li>Improved UI and performance.</li>
+</ul>
+</li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Contact</h2>
+
+<p>Email: <a href="mailto:prachi@email.com">prachi@email.com</a></p>
+
+<p>LinkedIn: <a href="#" target="_blank" rel="noopener noreferrer">linkedin.com/in/prachimoundekar</a></p>
+
+<p>GitHub: <a href="#" target="_blank" rel="noopener noreferrer">github.com/prachimoundekar</a></p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Prachi Moundekar | Resume Website</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
